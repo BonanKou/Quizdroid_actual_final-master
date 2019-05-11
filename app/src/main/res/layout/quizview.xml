@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
+              android:id="@+id/father">
+    <TextView
+            android:text="TextView"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="148dp"
+    android:id="@+id/wenti"/>
+<RadioGroup
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="295dp"
+        android:id="@+id/choose"
+            tools:layout_editor_absoluteX="177dp">
+<RadioButton
+
+                android:text="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/option1" android:layout_weight="1"/>
+<RadioButton
+                android:text="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/option2" android:layout_weight="1"/>
+<RadioButton
+                android:text="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/option3" android:layout_weight="1"/>
+<RadioButton
+                android:text="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/option4" android:layout_weight="1"/>
+<Button
+        android:layout_marginTop="60dp"
+                android:text="Button"
+        android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/submit" android:layout_weight="1"/>
+</RadioGroup>
+
+
+
+
+
+</LinearLayout>
